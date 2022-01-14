@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox prefHeight="662.0" prefWidth="966.0" spacing="20.0"  xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.labor6.UIController">
+    <ToolBar prefHeight="15.0" prefWidth="1000.0" style="-fx-background-color: #4f69ef">
+        <items>
+            <Button onAction="#onHomeButtonClick" text="Home" />
+            <Button onAction="#onExitButtonClick" text="Exit" />
+        </items>
+    </ToolBar>
+
+    <HBox alignment="CENTER" spacing="40">
+        <Button onAction="#onStudentButtonClick" text="Student" />
+        <Button onAction="#onTeacherButtonClick" text="Teacher" />
+    </HBox>
+    <TextField fx:id="textField" alignment="BASELINE_CENTER" promptText="Enter Id" /> <!--</TextField> -->
+
+</VBox>
